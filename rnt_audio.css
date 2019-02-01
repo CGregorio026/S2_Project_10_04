@@ -14,3 +14,19 @@
 */
 
 /* Audio Styles */
+/* 
+This style displays the audio clip as a block element, gives it a dark gray box shadow with blur, a margin which centers the element, and sets the width at 80%.
+*/
+audio {
+    display: block;
+    box-shadow: darkgray 8px 8px 15px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* 
+This causes the background color of the control panel to be changed to a dark blue color.
+*/
+audio::-webkit-media-controls-panel {
+    background-color: rgb(128, 128, 255);
+}
